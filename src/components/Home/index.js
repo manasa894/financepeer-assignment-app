@@ -751,7 +751,7 @@ class Home extends Component {
   getData = async () => {
     this.setState({ApiStatus: apiStatus.inProgress})
     const jwtToken = Cookies.get('jwt_token')
-    const url = 'https://localhost:3000/login/'
+    const url = 'https://financepeer-heroku-app.herokuapp.com/login/'
     const options = {
       headers: {
         Authorization: `Bearer ${jwtToken}`,

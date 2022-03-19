@@ -40,7 +40,7 @@ class UploadFileRoute extends Component {
     event.preventDefault()
     const {postData} = this.state
 
-    const url = 'https://localhost:3000/login/'
+    const url = 'https://financepeer-heroku-app.herokuapp.com/login/'
 
     const option = {
       method: 'POST',
